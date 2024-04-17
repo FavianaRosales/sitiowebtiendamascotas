@@ -1,0 +1,396 @@
+header{
+  background:#691E06;
+  color: #f5f3f5;
+  padding: 25px;
+  text-align: center;
+
+}
+
+body{
+  background:#D4B483 ;
+}
+nav ul{
+  background-color: #FE938C ;
+  list-style-type: none ;
+  width: 95%;
+  text-align: center;
+}
+
+nav li{
+  display: inline-flex;
+}
+
+nav a{
+  color:#f5f3f5;
+  text-decoration:none;
+  padding: 10px;
+  width: 190px;
+}
+
+nav a:hover{
+  color: black;
+
+}
+
+header h1{
+  font-family: "Josefin Sans", cursive ;
+}
+
+header nav{
+  font-family: "Cabin", cursive;
+  font-weight:400;
+  font-style: normal;
+}
+
+main{
+  font-family: "Jost",cursive;
+  max-width:2000px ;
+  margin:20px auto;
+  padding:0 20px;
+}
+
+
+
+.lista-accesorios{
+  display: flex;
+  flex-wrap: wrop;
+  justify-contet: space-between;
+  text-align: center;
+}
+
+.accesorios{
+  width: 40%; 
+  background-color: #FE938C;
+  padding:20px 5px 10px 5spx;
+  margin: 20px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.accesorios:hover{
+  box-shadow: 0 0 50px rgba(0, 0, 255, 0);
+}
+
+.accesorios img{
+  width:220px;
+  height:220px;
+  display: block;
+  transition: tranform 0.6s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+.accesorios:hover img{
+  transform: scale(1.3);
+}
+
+.accesorios button{
+  display:block;
+  margin: 0 auto;
+  background-color: #D4B483;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.accesorios button:hover{
+  background-color:white;
+}
+
+.Lista-Arnes{
+  display: flex;
+  flex-wrap: wrop;
+  justify-contet: space-between;
+  text-align: center;
+}
+
+.Arnes{
+  width: 40%; 
+  background-color: #FE938C;
+  padding:20px 5px 10px 5spx;
+  margin: 20px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.Arnes:hover{
+  box-shadow: 0 0 50px rgba(0, 0, 255, 0);
+}
+
+.Arnes img{
+  width:220px;
+  height:220px;
+  display: block;
+  transition: tranform 0.6s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+.Arnes:hover img{
+  transform: scale(1.3);
+}
+
+.Arnes button{
+  display:block;
+  margin: 0 auto;
+  background-color: #D4B483;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Arnes button:hover{
+  background-color:white;
+}
+
+.Lista-Collares-Gatos{
+  display: flex;
+  flex-wrap: wrop;
+  justify-contet: space-between;
+  text-align: center;
+}
+
+.collaresgato{
+  width: 40%; 
+  background-color: #FE938C;
+  padding:20px 5px 10px 5spx;
+  margin: 20px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.collaresgato:hover{
+  box-shadow: 0 0 50px rgba(0, 0, 255, 0);
+}
+
+.collaresgato img{
+  width:220px;
+  height:220px;
+  display: block;
+  transition: tranform 0.6s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+.collaresgato:hover img{
+  transform: scale(1.3);
+}
+
+.collaresgato button{
+  display:block;
+  margin: 0 auto;
+  background-color: #D4B483;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.collaresgato button:hover{
+  background-color:white;
+}
+
+.Lista-Collares-Perros{
+  display: flex;
+  flex-wrap: wrop;
+  justify-contet: space-between;
+  text-align: center;
+}
+
+.collaresperro{
+  width: 40%; 
+  background-color: #FE938C;
+  padding:20px 5px 10px 5spx;
+  margin: 20px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.collaresperro:hover{
+  box-shadow: 0 0 50px rgba(0, 0, 255, 0);
+}
+
+.collaresperro img{
+  width:220px;
+  height:220px;
+  display: block;
+  transition: tranform 0.6s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+.collaresperro:hover img{
+  transform: scale(1.3);
+}
+
+.collaresperro button{
+  display:block;
+  margin: 0 auto;
+  background-color: #D4B483;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.collaresperro button:hover{
+  background-color:white;
+}
+
+.Lista-juguetes{
+  display: flex;
+  flex-wrap: wrop;
+  justify-contet: space-between;
+  text-align: center;
+}
+
+.juguetes{
+  width: 40%; 
+  background-color: #FE938C;
+  padding:20px 5px 10px 5spx;
+  margin: 20px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.juguetes:hover{
+  box-shadow: 0 0 50px rgba(0, 0, 255, 0);
+}
+
+.juguetes img{
+  width:220px;
+  height:220px;
+  display: block;
+  transition: tranform 0.6s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+.juguetes:hover img{
+  transform: scale(1.3);
+}
+
+.juguetes button{
+  display:block;
+  margin: 0 auto;
+  background-color: #D4B483;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.juguetes button:hover{
+  background-color:white;
+}
+
+.Lista-camas{
+  display: flex;
+  flex-wrap: wrop;
+  justify-contet: space-between;
+  text-align: center;
+}
+
+.camas{
+  width: 40%; 
+  background-color: #FE938C;
+  padding:20px 5px 10px 5spx;
+  margin: 20px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.camas:hover{
+  box-shadow: 0 0 50px rgba(0, 0, 255, 0);
+}
+
+.camas img{
+  width:220px;
+  height:220px;
+  display: block;
+  transition: tranform 0.6s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+.camas:hover img{
+  transform: scale(1.3);
+}
+
+.camas button{
+  display:block;
+  margin: 0 auto;
+  background-color: #D4B483;
+  color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.camas button:hover{
+  background-color:white;
+}
+
+
+footer{
+  background-color: #FE938C;
+  color:black;
+  display:flex;
+  justify-content: space-around ;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-family: "Josefin Sans", cursive;
+  font-size:18px;
+}
+
+.links-informativos{
+  width: 400px;
+}
+
+.links-informativos ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+
+.links-informativos li a{
+  text-decoration: none;
+  color:#f5f3f5 ;
+
+}
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+.redes-sociales{
+  width: 300px;
+}
+
+.redes-sociales img {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.redes-sociales li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.redes-sociales img:hover{
+  transform: scale(1.3);
+}
+
+.info-contacto{
+  width: 200px;
+  text-align: right;
+  font-size: right;
+  font-size: 17px;
+  color: white;
+
+}
+
+
